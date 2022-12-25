@@ -98,6 +98,7 @@ div.main-container p {
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 600px) {
+
   .main-container,
   .secondary-container {
     max-width: 23rem;
@@ -135,6 +136,8 @@ div.main-container p {
   background-color: var(--orange);
   cursor: pointer;
   color: var(--white);
+  transition-duration: 450ms;
+  transition-timing-function: ease-in-out;
 }
 
 .one:active,
@@ -142,6 +145,15 @@ div.main-container p {
 .three:active,
 .four:active,
 .five:active {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+
+.one:visited,
+.two:visited,
+.three:visited,
+.four:visited,
+.five:visited {
   background-color: var(--light-grey);
   color: var(--white);
 }
