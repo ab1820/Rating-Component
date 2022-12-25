@@ -29,7 +29,7 @@ html {
 .wrapper {
   display: flex;
   flex-direction: column;
-  transform: translateY(90%);
+  transform: translateY(70%);
 }
 
 .main-container {
@@ -37,7 +37,8 @@ html {
   margin: auto;
   background: radial-gradient(ellipse at top, hsla(216, 12%, 54%, 0.1), hsl(210, 30%, 8%));
   border-radius: 1rem;
-  padding: 25px;
+  padding: 30px;
+  padding-bottom: 50px;
 }
 
 /* IMAGES */
@@ -65,6 +66,56 @@ div.main-container p {
 .buttons {
   display: flex;
   justify-content: space-around;
+  margin: 0 -15px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  background-color: var(--dark-blue);
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  color: var(--medium-grey);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.submit {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 15px 115px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  /* margin-left: 15px; */
+  text-align: center;
+  border-radius: 1.7rem;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 600px) {
+  .main-container {
+    max-width: 23rem;
+  }
+
+  .submit {
+    padding: 13px 138px;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five {
+    padding: 14px;
+  }
+
+  .buttons {
+    margin: 0 -12px;
+  }
 }
 
 /* ADD JAVASCRIPT LATER TO SHOW THANK YOU CARD */
