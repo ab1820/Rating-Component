@@ -39,6 +39,7 @@ html {
   border-radius: 1rem;
   padding: 30px;
   padding-bottom: 50px;
+  display: none;
 }
 
 /* IMAGES */
@@ -97,7 +98,8 @@ div.main-container p {
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 600px) {
-  .main-container {
+  .main-container,
+  .secondary-container {
     max-width: 23rem;
   }
 
@@ -118,7 +120,69 @@ div.main-container p {
   }
 }
 
+/* HOVER EFFECTS */
+.submit:hover,
+.submit:active {
+  color: var(--orange);
+  background-color: var(--white);
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+  background-color: var(--orange);
+  cursor: pointer;
+  color: var(--white);
+}
+
+.one:active,
+.two:active,
+.three:active,
+.four:active,
+.five:active {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+
+
 /* ADD JAVASCRIPT LATER TO SHOW THANK YOU CARD */
 .secondary-container {
-  display: none;
+  /* display: none; */
+  max-width: 20rem;
+  margin: auto;
+  background: radial-gradient(ellipse at top, hsla(216, 12%, 54%, 0.1), hsl(212, 32%, 8%));
+  border-radius: 1rem;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+img.illustration {
+  margin-left: 4rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.selection {
+  color: var(--orange);
+  text-align: center;
+  background-color: var(--dark-blue);
+  padding: 5px 0;
+  margin: 0 4.5rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.secondary-container h2 {
+  text-align: center;
+  color: var(--white);
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.last {
+  text-align: center;
+  color: var(--light-grey);
+  line-height: 1.6;
 }
