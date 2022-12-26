@@ -32,9 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: (https://www.frontendmentor.io/solutions/interactive-rating-component-3wGX2_mH73)
+- Live Site URL: (https://ab1820.github.io/Rating-Component/#)
 ## My process
 
 -This will be my very first Javascript project that I have ever tackled on my own. Let's see how it goes!
