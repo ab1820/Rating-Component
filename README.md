@@ -10,9 +10,7 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,7 +25,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile](https://user-images.githubusercontent.com/114027684/209487411-5ebfbf98-60c5-4a8a-a00a-ec96a21ec52c.png)
+![Submit](https://user-images.githubusercontent.com/114027684/209487423-1454d0a9-fad5-4d23-917a-e1bf63fcdc02.png)
+![Thank-You](https://user-images.githubusercontent.com/114027684/209487438-b26ff6b6-5c3d-46b9-8e48-e43408e6f060.png)
+
 
 ### Links
 
@@ -45,21 +46,16 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Javascript
 
 ### What I learned
 
+- I learned how to show certain items with a click in Javascript, as well as make them disappear.
 
 ### Continued development
 
-
-
-### Useful resources
-
-
+- Continuously learning Javascript
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-
-## Acknowledgments
+- Frontend Mentor - [@ab1820](https://www.frontendmentor.io/profile/ab1820)
